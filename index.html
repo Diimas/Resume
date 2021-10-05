@@ -9,12 +9,14 @@
     <div class="container">
         <div class="info">
             <img src="img.jpg" class="avatar">
-            <h1>Дмитрий Коваленко</h1>
-            <p>Саундпродюсер и композитор</p>
-            <p>Люблю есть и спать до 12ти</p>
-            <h4>Мои социальные сети:</h4>
-            <a href="https://t.me/Dimasssmith" target="_blank">Telegram</a> |
-            <a href="https://instagram.com/Dimasssmith" target="_blank">Instagram</a>
+            <div class="info-text">
+                <h1>Дмитрий Коваленко</h1>
+                <p>Саундпродюсер и композитор</p>
+                <p>Люблю есть и спать до 12ти</p>
+                <h4>Мои социальные сети:</h4>
+                <a href="https://t.me/Dimasssmith" target="_blank">Telegram</a> |
+                <a href="https://instagram.com/Dimasssmith" target="_blank">Instagram</a>
+            </div>    
         </div>
         <div class="card bg-blue">
             <h2>Мои хобби:</h2>
@@ -54,20 +56,25 @@
             <h2>Youtube</h2>
             <a href="youtube.html" target="_blank">Просто ссылка на Youtube</a>
          </div>
-        <div class="card bg-red">
-        <h2>Связаться со мной:</h2>
-        <label for="name">Введите ваше имя:</label>
-        <input type="text" id="name">
-        <br>
-        <label for="mail">Введите ваш email:</label>
-        <input type="email" id="mail">
-        <br>
-        <label for="text">Введите ваше сообщение:</label>
-        <br>
-        <textarea name="" id="text" cols="30" rows="5"></textarea>
-        <br>
-        <input type="submit" name="" id="">
-         </div>
+        <div class="contact">
+            <h2>Связаться со мной:</h2>
+            <div class="row">
+                <div class="form-group">
+                    <label for="name">Введите ваше имя:</label>
+                    <input type="text" id="name">
+                </div>
+                <div class="form-group">
+                    <label for="mail">Введите ваш email:</label>
+                    <input type="email" id="mail">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="text">Введите ваше сообщение:</label>
+                <textarea name="" id="text" cols="30" rows="5"></textarea>
+            </div>    
+            <input class="btn" type="submit" name="" id="">
+            
+        </div>
     </div>
     
 </body>
